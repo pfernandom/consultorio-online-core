@@ -28,7 +28,7 @@ import com.consultorio.core.dataaccess.repo.PatientRepository;
 @ContextConfiguration("/app-context.xml")
 @ActiveProfiles("application")
 public class PatientTest {
-	
+	//
 	@Autowired
 	PatientRepository patientRepo;
 	
